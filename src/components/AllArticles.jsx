@@ -18,8 +18,9 @@ return (
       {articles.map((article) => (
         <li className="articles" key={article.article_id}>
           <h3>{article.title}</h3>
-          <p>By: {article.author}</p>
+          <p>By: {article.author}, </p>
           <p>Topic: {article.topic}</p>
+          <img  src={article.article_img_url}/>
           <p>Comments: {article.comment_count}</p>
         </li>
       ))}
