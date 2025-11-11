@@ -3,13 +3,13 @@
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
-  color: rgb(185, 0, 0);
+  color: rgb(4, 6, 115);
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-  background-color: rgb(250, 156, 121);
+  background-color: rgb(189, 203, 238);
 }
 
 * {
-  background-color: rgb(250, 156, 121);
+  background-color: rgb(189, 203, 238);
 }
 
 .header {
@@ -21,7 +21,7 @@
   font-size: 60px;
   border-style: solid;
   text-align: center;
-  background-color: rgb(250, 156, 121);
+  background-color: rgb(189, 203, 238);
   padding: 10px 0;
   width: 100%;
   max-width: 1280px;
