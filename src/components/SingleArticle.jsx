@@ -33,6 +33,7 @@ return (
     <>
     <h2>{singleArticle.title}</h2>
     <p>By {singleArticle.author}</p>
+    <p>Posted: {new Date(singleArticle.created_at).toLocaleString("en-GB", {timeStyle: "short", dateStyle: "short"})}</p>
     <img src={singleArticle.article_img_url} alt={singleArticle.title}/>
     <p>{singleArticle.body}</p>
     <p>Votes: {singleArticle.votes}</p>
