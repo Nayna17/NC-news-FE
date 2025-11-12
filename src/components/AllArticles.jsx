@@ -1,5 +1,6 @@
 import { useEffect } from "react";
 import { useState } from "react";
+import { Link } from "react-router-dom"
 
 const AllArticles = () => {
   const [articles, setArticles] = useState([]);
@@ -21,7 +22,7 @@ const AllArticles = () => {
       <ul>
         {articles.map((article) => (
           <li className="articles" key={article.article_id}>
-            <h3>{article.title}</h3>
+            <Link to={`/api/articles/${article.article_id}`}>{article.title}</Link>
             <p>By: {article.author}, </p>
             <p>Topic: {article.topic}</p>
             <p>Posted: {article.created_at}</p>

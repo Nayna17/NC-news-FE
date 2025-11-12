@@ -1,5 +1,10 @@
+import { Link } from "react-router-dom"
 const Header = () => {
-  return <h1 className="header">NC News</h1>;
+  return ( 
+  <Link to={"/api/articles"}>
+  <h1 className="header">NC News</h1>
+  </Link>
+  )
 };
 
 export default Header;
